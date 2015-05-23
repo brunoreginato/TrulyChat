@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		FAFDD85C1B0EA8FC00D2E946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD85B1B0EA8FC00D2E946 /* main.m */; };
 		FAFDD85F1B0EA8FC00D2E946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD85E1B0EA8FC00D2E946 /* AppDelegate.m */; };
-		FAFDD8621B0EA8FC00D2E946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8611B0EA8FC00D2E946 /* ViewController.m */; };
 		FAFDD8651B0EA8FC00D2E946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8631B0EA8FC00D2E946 /* Main.storyboard */; };
 		FAFDD8671B0EA8FC00D2E946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8661B0EA8FC00D2E946 /* Images.xcassets */; };
 		FAFDD86A1B0EA8FC00D2E946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8681B0EA8FC00D2E946 /* LaunchScreen.xib */; };
 		FAFDD8761B0EA8FC00D2E946 /* TrulyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8751B0EA8FC00D2E946 /* TrulyChatTests.m */; };
+		FAFDD8811B0EAE8A00D2E946 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */; };
+		FAFDD8841B0EAECE00D2E946 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */; };
+		FAFDD88B1B0EB0EF00D2E946 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		FAFDD85B1B0EA8FC00D2E946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAFDD85D1B0EA8FC00D2E946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAFDD85E1B0EA8FC00D2E946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAFDD8601B0EA8FC00D2E946 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAFDD8611B0EA8FC00D2E946 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAFDD8641B0EA8FC00D2E946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFDD8661B0EA8FC00D2E946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAFDD8691B0EA8FC00D2E946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAFDD86F1B0EA8FC00D2E946 /* TrulyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrulyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFDD8741B0EA8FC00D2E946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFDD8751B0EA8FC00D2E946 /* TrulyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrulyChatTests.m; sourceTree = "<group>"; };
+		FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		FAFDD8821B0EAECE00D2E946 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		FAFDD8891B0EB0EF00D2E946 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatTableViewController.h; path = Controllers/ChatTableViewController.h; sourceTree = "<group>"; };
+		FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatTableViewController.m; path = Controllers/ChatTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFDD8811B0EAE8A00D2E946 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +87,13 @@
 		FAFDD8581B0EA8FC00D2E946 /* TrulyChat */ = {
 			isa = PBXGroup;
 			children = (
+				FAFDD8851B0EAED700D2E946 /* Controllers */,
 				FAFDD85D1B0EA8FC00D2E946 /* AppDelegate.h */,
 				FAFDD85E1B0EA8FC00D2E946 /* AppDelegate.m */,
-				FAFDD8601B0EA8FC00D2E946 /* ViewController.h */,
-				FAFDD8611B0EA8FC00D2E946 /* ViewController.m */,
 				FAFDD8631B0EA8FC00D2E946 /* Main.storyboard */,
 				FAFDD8661B0EA8FC00D2E946 /* Images.xcassets */,
 				FAFDD8681B0EA8FC00D2E946 /* LaunchScreen.xib */,
+				FAFDD87F1B0EAE8A00D2E946 /* Frameworks */,
 				FAFDD8591B0EA8FC00D2E946 /* Supporting Files */,
 			);
 			path = TrulyChat;
@@ -117,6 +123,25 @@
 				FAFDD8741B0EA8FC00D2E946 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFDD87F1B0EAE8A00D2E946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAFDD8851B0EAED700D2E946 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD8821B0EAECE00D2E946 /* LoginViewController.h */,
+				FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */,
+				FAFDD8891B0EB0EF00D2E946 /* ChatTableViewController.h */,
+				FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFDD8621B0EA8FC00D2E946 /* ViewController.m in Sources */,
 				FAFDD85F1B0EA8FC00D2E946 /* AppDelegate.m in Sources */,
 				FAFDD85C1B0EA8FC00D2E946 /* main.m in Sources */,
+				FAFDD8841B0EAECE00D2E946 /* LoginViewController.m in Sources */,
+				FAFDD88B1B0EB0EF00D2E946 /* ChatTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrulyChat/Frameworks",
+				);
 				INFOPLIST_FILE = TrulyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +383,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrulyChat/Frameworks",
+				);
 				INFOPLIST_FILE = TrulyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
