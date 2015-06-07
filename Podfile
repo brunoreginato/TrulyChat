@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'TrulyChat' do
-
+    pod 'Firebase', '>= 2.2.2'
 end
 
 target 'TrulyChatTests' do

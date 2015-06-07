@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA737C751B161FAB0092F7BA /* BRMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA737C741B161FAB0092F7BA /* BRMessage.m */; };
+		FA737C791B161FF30092F7BA /* BRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FA737C781B161FF30092F7BA /* BRPerson.m */; };
+		FA737C7C1B16203C0092F7BA /* BRConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA737C7B1B16203C0092F7BA /* BRConversation.m */; };
+		FAA8F10B1B15FE3200908182 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8F10A1B15FE3200908182 /* libicucore.dylib */; };
+		FAA8F10D1B15FE4400908182 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8F10C1B15FE4400908182 /* libc++.dylib */; };
+		FAA8F10F1B15FE4A00908182 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8F10E1B15FE4A00908182 /* CFNetwork.framework */; };
+		FAA8F1111B15FE6000908182 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8F1101B15FE6000908182 /* Security.framework */; };
+		FAA8F1131B15FE7700908182 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8F1121B15FE7700908182 /* SystemConfiguration.framework */; };
+		FAB33EC71B232EED005F688F /* BRConversationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB33EC61B232EED005F688F /* BRConversationTableViewController.m */; };
 		FAFDD85C1B0EA8FC00D2E946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD85B1B0EA8FC00D2E946 /* main.m */; };
 		FAFDD85F1B0EA8FC00D2E946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD85E1B0EA8FC00D2E946 /* AppDelegate.m */; };
 		FAFDD8651B0EA8FC00D2E946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8631B0EA8FC00D2E946 /* Main.storyboard */; };
 		FAFDD8671B0EA8FC00D2E946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8661B0EA8FC00D2E946 /* Images.xcassets */; };
 		FAFDD86A1B0EA8FC00D2E946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD8681B0EA8FC00D2E946 /* LaunchScreen.xib */; };
 		FAFDD8761B0EA8FC00D2E946 /* TrulyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8751B0EA8FC00D2E946 /* TrulyChatTests.m */; };
-		FAFDD8811B0EAE8A00D2E946 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */; };
-		FAFDD8841B0EAECE00D2E946 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */; };
-		FAFDD88B1B0EB0EF00D2E946 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */; };
+		FAFDD8841B0EAECE00D2E946 /* BRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD8831B0EAECE00D2E946 /* BRLoginViewController.m */; };
+		FAFDD88B1B0EB0EF00D2E946 /* BRChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD88A1B0EB0EF00D2E946 /* BRChatTableViewController.m */; };
+		FC1D632CDD3770EE6833A260 /* libPods-TrulyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 281072E0870EF393F7A38730 /* libPods-TrulyChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281072E0870EF393F7A38730 /* libPods-TrulyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrulyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A5AB850573325E433BCE11 /* Pods-TrulyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrulyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrulyChat/Pods-TrulyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F6C8F0022BD98216769565 /* Pods-TrulyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrulyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrulyChat/Pods-TrulyChat.release.xcconfig"; sourceTree = "<group>"; };
+		FA737C731B161FAB0092F7BA /* BRMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMessage.h; path = Models/BRMessage.h; sourceTree = "<group>"; };
+		FA737C741B161FAB0092F7BA /* BRMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMessage.m; path = Models/BRMessage.m; sourceTree = "<group>"; };
+		FA737C771B161FF30092F7BA /* BRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRPerson.h; path = Models/BRPerson.h; sourceTree = "<group>"; };
+		FA737C781B161FF30092F7BA /* BRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRPerson.m; path = Models/BRPerson.m; sourceTree = "<group>"; };
+		FA737C7A1B16203C0092F7BA /* BRConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRConversation.h; path = Models/BRConversation.h; sourceTree = "<group>"; };
+		FA737C7B1B16203C0092F7BA /* BRConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRConversation.m; path = Models/BRConversation.m; sourceTree = "<group>"; };
+		FAA8F10A1B15FE3200908182 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FAA8F10C1B15FE4400908182 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FAA8F10E1B15FE4A00908182 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAA8F1101B15FE6000908182 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAA8F1121B15FE7700908182 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAB33EC51B232EED005F688F /* BRConversationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRConversationTableViewController.h; sourceTree = "<group>"; };
+		FAB33EC61B232EED005F688F /* BRConversationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRConversationTableViewController.m; sourceTree = "<group>"; };
 		FAFDD8561B0EA8FC00D2E946 /* TrulyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrulyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFDD85A1B0EA8FC00D2E946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFDD85B1B0EA8FC00D2E946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,11 +65,10 @@
 		FAFDD86F1B0EA8FC00D2E946 /* TrulyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrulyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFDD8741B0EA8FC00D2E946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFDD8751B0EA8FC00D2E946 /* TrulyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrulyChatTests.m; sourceTree = "<group>"; };
-		FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
-		FAFDD8821B0EAECE00D2E946 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
-		FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
-		FAFDD8891B0EB0EF00D2E946 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatTableViewController.h; path = Controllers/ChatTableViewController.h; sourceTree = "<group>"; };
-		FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatTableViewController.m; path = Controllers/ChatTableViewController.m; sourceTree = "<group>"; };
+		FAFDD8821B0EAECE00D2E946 /* BRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLoginViewController.h; path = Controllers/BRLoginViewController.h; sourceTree = "<group>"; };
+		FAFDD8831B0EAECE00D2E946 /* BRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLoginViewController.m; path = Controllers/BRLoginViewController.m; sourceTree = "<group>"; };
+		FAFDD8891B0EB0EF00D2E946 /* BRChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRChatTableViewController.h; path = Controllers/BRChatTableViewController.h; sourceTree = "<group>"; };
+		FAFDD88A1B0EB0EF00D2E946 /* BRChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRChatTableViewController.m; path = Controllers/BRChatTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFDD8811B0EAE8A00D2E946 /* Firebase.framework in Frameworks */,
+				FAA8F1131B15FE7700908182 /* SystemConfiguration.framework in Frameworks */,
+				FAA8F1111B15FE6000908182 /* Security.framework in Frameworks */,
+				FAA8F10F1B15FE4A00908182 /* CFNetwork.framework in Frameworks */,
+				FAA8F10D1B15FE4400908182 /* libc++.dylib in Frameworks */,
+				FAA8F10B1B15FE3200908182 /* libicucore.dylib in Frameworks */,
+				FC1D632CDD3770EE6833A260 /* libPods-TrulyChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +95,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282DA95782B968F3A2E70281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8F1121B15FE7700908182 /* SystemConfiguration.framework */,
+				FAA8F1101B15FE6000908182 /* Security.framework */,
+				FAA8F10E1B15FE4A00908182 /* CFNetwork.framework */,
+				FAA8F10C1B15FE4400908182 /* libc++.dylib */,
+				FAA8F10A1B15FE3200908182 /* libicucore.dylib */,
+				281072E0870EF393F7A38730 /* libPods-TrulyChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74F5A609BCDE4435830C647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5AB850573325E433BCE11 /* Pods-TrulyChat.debug.xcconfig */,
+				C3F6C8F0022BD98216769565 /* Pods-TrulyChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA737C761B161FB00092F7BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA737C731B161FAB0092F7BA /* BRMessage.h */,
+				FA737C741B161FAB0092F7BA /* BRMessage.m */,
+				FA737C771B161FF30092F7BA /* BRPerson.h */,
+				FA737C781B161FF30092F7BA /* BRPerson.m */,
+				FA737C7A1B16203C0092F7BA /* BRConversation.h */,
+				FA737C7B1B16203C0092F7BA /* BRConversation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		FAFDD84D1B0EA8FB00D2E946 = {
 			isa = PBXGroup;
 			children = (
 				FAFDD8581B0EA8FC00D2E946 /* TrulyChat */,
 				FAFDD8721B0EA8FC00D2E946 /* TrulyChatTests */,
 				FAFDD8571B0EA8FC00D2E946 /* Products */,
+				C74F5A609BCDE4435830C647 /* Pods */,
+				282DA95782B968F3A2E70281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +153,7 @@
 		FAFDD8581B0EA8FC00D2E946 /* TrulyChat */ = {
 			isa = PBXGroup;
 			children = (
+				FA737C761B161FB00092F7BA /* Models */,
 				FAFDD8851B0EAED700D2E946 /* Controllers */,
 				FAFDD85D1B0EA8FC00D2E946 /* AppDelegate.h */,
 				FAFDD85E1B0EA8FC00D2E946 /* AppDelegate.m */,
@@ -128,7 +195,6 @@
 		FAFDD87F1B0EAE8A00D2E946 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAFDD8801B0EAE8A00D2E946 /* Firebase.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -136,10 +202,12 @@
 		FAFDD8851B0EAED700D2E946 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FAFDD8821B0EAECE00D2E946 /* LoginViewController.h */,
-				FAFDD8831B0EAECE00D2E946 /* LoginViewController.m */,
-				FAFDD8891B0EB0EF00D2E946 /* ChatTableViewController.h */,
-				FAFDD88A1B0EB0EF00D2E946 /* ChatTableViewController.m */,
+				FAFDD8821B0EAECE00D2E946 /* BRLoginViewController.h */,
+				FAFDD8831B0EAECE00D2E946 /* BRLoginViewController.m */,
+				FAFDD8891B0EB0EF00D2E946 /* BRChatTableViewController.h */,
+				FAFDD88A1B0EB0EF00D2E946 /* BRChatTableViewController.m */,
+				FAB33EC51B232EED005F688F /* BRConversationTableViewController.h */,
+				FAB33EC61B232EED005F688F /* BRConversationTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -151,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAFDD8791B0EA8FC00D2E946 /* Build configuration list for PBXNativeTarget "TrulyChat" */;
 			buildPhases = (
+				4486BADDDEF2A1767ECB4C06 /* Check Pods Manifest.lock */,
 				FAFDD8521B0EA8FC00D2E946 /* Sources */,
 				FAFDD8531B0EA8FC00D2E946 /* Frameworks */,
 				FAFDD8541B0EA8FC00D2E946 /* Resources */,
+				A05CD5479A24693D82601F5F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +258,7 @@
 		FAFDD84E1B0EA8FC00D2E946 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BR;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = BReginato;
 				TargetAttributes = {
@@ -239,15 +310,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4486BADDDEF2A1767ECB4C06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A05CD5479A24693D82601F5F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrulyChat/Pods-TrulyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAFDD8521B0EA8FC00D2E946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA737C791B161FF30092F7BA /* BRPerson.m in Sources */,
 				FAFDD85F1B0EA8FC00D2E946 /* AppDelegate.m in Sources */,
+				FAB33EC71B232EED005F688F /* BRConversationTableViewController.m in Sources */,
 				FAFDD85C1B0EA8FC00D2E946 /* main.m in Sources */,
-				FAFDD8841B0EAECE00D2E946 /* LoginViewController.m in Sources */,
-				FAFDD88B1B0EB0EF00D2E946 /* ChatTableViewController.m in Sources */,
+				FA737C751B161FAB0092F7BA /* BRMessage.m in Sources */,
+				FAFDD8841B0EAECE00D2E946 /* BRLoginViewController.m in Sources */,
+				FAFDD88B1B0EB0EF00D2E946 /* BRChatTableViewController.m in Sources */,
+				FA737C7C1B16203C0092F7BA /* BRConversation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +475,7 @@
 		};
 		FAFDD87A1B0EA8FC00D2E946 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A5AB850573325E433BCE11 /* Pods-TrulyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -381,6 +490,7 @@
 		};
 		FAFDD87B1B0EA8FC00D2E946 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F6C8F0022BD98216769565 /* Pods-TrulyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -446,6 +556,7 @@
 				FAFDD87B1B0EA8FC00D2E946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFDD87C1B0EA8FC00D2E946 /* Build configuration list for PBXNativeTarget "TrulyChatTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +565,7 @@
 				FAFDD87E1B0EA8FC00D2E946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
